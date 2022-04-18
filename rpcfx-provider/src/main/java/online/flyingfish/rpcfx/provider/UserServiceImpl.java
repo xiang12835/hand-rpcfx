@@ -1,7 +1,7 @@
-package online.flyingfish.rpcfx.demo.provider;
+package online.flyingfish.rpcfx.provider;
 
-import online.flyingfish.rpcfx.demo.api.User;
-import online.flyingfish.rpcfx.demo.api.UserService;
+import online.flyingfish.rpcfx.api.User;
+import online.flyingfish.rpcfx.api.UserService;
 
 public class UserServiceImpl implements UserService {
 

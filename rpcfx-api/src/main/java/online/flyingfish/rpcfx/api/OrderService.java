@@ -1,4 +1,4 @@
-package online.flyingfish.rpcfx.demo.api;
+package online.flyingfish.rpcfx.api;
 
 public interface OrderService {
 

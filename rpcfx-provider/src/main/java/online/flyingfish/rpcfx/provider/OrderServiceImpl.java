@@ -1,7 +1,7 @@
-package online.flyingfish.rpcfx.demo.provider;
+package online.flyingfish.rpcfx.provider;
 
-import online.flyingfish.rpcfx.demo.api.Order;
-import online.flyingfish.rpcfx.demo.api.OrderService;
+import online.flyingfish.rpcfx.api.Order;
+import online.flyingfish.rpcfx.api.OrderService;
 
 public class OrderServiceImpl implements OrderService {
 

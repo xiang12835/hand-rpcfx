@@ -1,11 +1,11 @@
-package online.flyingfish.rpcfx.demo.provider;
+package online.flyingfish.rpcfx.provider;
 
 import online.flyingfish.rpcfx.api.RpcfxRequest;
 import online.flyingfish.rpcfx.api.RpcfxResolver;
 import online.flyingfish.rpcfx.api.RpcfxResponse;
 import online.flyingfish.rpcfx.api.ServiceProviderDesc;
-import online.flyingfish.rpcfx.demo.api.OrderService;
-import online.flyingfish.rpcfx.demo.api.UserService;
+import online.flyingfish.rpcfx.api.OrderService;
+import online.flyingfish.rpcfx.api.UserService;
 import online.flyingfish.rpcfx.server.RpcfxInvoker;
 import org.apache.curator.framework.CuratorFramework;
 import org.apache.zookeeper.CreateMode;
@@ -32,11 +32,11 @@ public class RpcfxServerApplication {
 //
 //
 //		// register service
-//		// xxx "online.flyingfish.rpcfx.demo.api.UserService"
+//		// xxx "online.flyingfish.rpcfx.api.UserService"
 //
-//		String userService = "online.flyingfish.rpcfx.demo.api.UserService";
+//		String userService = "online.flyingfish.rpcfx.api.UserService";
 //		registerService(client, userService);
-//		String orderService = "online.flyingfish.rpcfx.demo.api.OrderService";
+//		String orderService = "online.flyingfish.rpcfx.api.OrderService";
 //		registerService(client, orderService);
 
 
@@ -87,12 +87,12 @@ public class RpcfxServerApplication {
 	// annotation
 
 
-	@Bean(name = "online.flyingfish.rpcfx.demo.api.UserService")
+	@Bean(name = "online.flyingfish.rpcfx.api.UserService")
 	public UserService createUserService(){
 		return new UserServiceImpl();
 	}
 
-	@Bean(name = "online.flyingfish.rpcfx.demo.api.OrderService")
+	@Bean(name = "online.flyingfish.rpcfx.api.OrderService")
 	public OrderService createOrderService(){
 		return new OrderServiceImpl();
 	}

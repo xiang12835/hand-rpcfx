@@ -1,12 +1,12 @@
-package online.flyingfish.rpcfx.demo.consumer;
+package online.flyingfish.rpcfx.consumer;
 
 import online.flyingfish.rpcfx.api.Filter;
 import online.flyingfish.rpcfx.api.LoadBalancer;
 import online.flyingfish.rpcfx.api.Router;
 import online.flyingfish.rpcfx.api.RpcfxRequest;
 import online.flyingfish.rpcfx.client.Rpcfx;
-import online.flyingfish.rpcfx.demo.api.User;
-import online.flyingfish.rpcfx.demo.api.UserService;
+import online.flyingfish.rpcfx.api.User;
+import online.flyingfish.rpcfx.api.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

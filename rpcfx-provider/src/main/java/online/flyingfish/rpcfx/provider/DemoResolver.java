@@ -1,4 +1,4 @@
-package online.flyingfish.rpcfx.demo.provider;
+package online.flyingfish.rpcfx.provider;
 
 import online.flyingfish.rpcfx.api.RpcfxResolver;
 import org.springframework.context.ApplicationContext;
