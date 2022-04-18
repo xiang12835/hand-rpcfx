@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>rpcfx-demo-consumer</artifactId>
+    <artifactId>rpcfx-provider</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -24,7 +24,7 @@
         </dependency>
         <dependency>
             <groupId>online.flyingfish</groupId>
-            <artifactId>rpcfx-demo-api</artifactId>
+            <artifactId>rpcfx-api</artifactId>
             <version>${project.version}</version>
         </dependency>
 

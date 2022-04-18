@@ -34,9 +34,9 @@ public class RpcfxServerApplication {
 //		// register service
 //		// xxx "online.flyingfish.rpcfx.demo.api.UserService"
 //
-//		String userService = "io.kimking.rpcfx.demo.api.UserService";
+//		String userService = "online.flyingfish.rpcfx.demo.api.UserService";
 //		registerService(client, userService);
-//		String orderService = "io.kimking.rpcfx.demo.api.OrderService";
+//		String orderService = "online.flyingfish.rpcfx.demo.api.OrderService";
 //		registerService(client, orderService);
 
 

@@ -17,9 +17,9 @@
 
 	<modules>
 		<module>rpcfx-core</module>
-		<module>rpcfx-demo-api</module>
-		<module>rpcfx-demo-consumer</module>
-		<module>rpcfx-demo-provider</module>
+		<module>rpcfx-api</module>
+		<module>rpcfx-consumer</module>
+		<module>rpcfx-provider</module>
 	</modules>
 
 	<properties>
