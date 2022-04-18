@@ -3,11 +3,11 @@ package online.flyingfish.rpcfx.client;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.parser.ParserConfig;
-import online.flyingfish.rpcfx.api.*;
 import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.RequestBody;
+import online.flyingfish.rpcfx.core.*;
 
 import java.io.IOException;
 import java.lang.reflect.InvocationHandler;

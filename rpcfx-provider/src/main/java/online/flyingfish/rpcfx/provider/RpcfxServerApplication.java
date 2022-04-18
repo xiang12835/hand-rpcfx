@@ -1,9 +1,9 @@
 package online.flyingfish.rpcfx.provider;
 
-import online.flyingfish.rpcfx.api.RpcfxRequest;
-import online.flyingfish.rpcfx.api.RpcfxResolver;
-import online.flyingfish.rpcfx.api.RpcfxResponse;
-import online.flyingfish.rpcfx.api.ServiceProviderDesc;
+import online.flyingfish.rpcfx.core.RpcfxRequest;
+import online.flyingfish.rpcfx.core.RpcfxResolver;
+import online.flyingfish.rpcfx.core.RpcfxResponse;
+import online.flyingfish.rpcfx.core.ServiceProviderDesc;
 import online.flyingfish.rpcfx.api.OrderService;
 import online.flyingfish.rpcfx.api.UserService;
 import online.flyingfish.rpcfx.server.RpcfxInvoker;

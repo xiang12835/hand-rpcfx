@@ -1,4 +1,4 @@
-package online.flyingfish.rpcfx.api;
+package online.flyingfish.rpcfx.core;
 
 import lombok.Builder;
 import lombok.Data;

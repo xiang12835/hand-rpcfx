@@ -1,6 +1,6 @@
 package online.flyingfish.rpcfx.provider;
 
-import online.flyingfish.rpcfx.api.RpcfxResolver;
+import online.flyingfish.rpcfx.core.RpcfxResolver;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 
